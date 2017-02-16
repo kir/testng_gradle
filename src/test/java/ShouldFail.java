@@ -16,6 +16,11 @@ public class ShouldFail {
   @Test
   public void test2(){
     System.err.println("line1");
+    System.err.println("line1");
+    System.err.println("line1");
+    System.err.println("line1");
+    System.err.println("line1");
+    System.err.println("line1");
     System.err.println("line2");
     System.err.println("line3");
     System.err.println("line4");
