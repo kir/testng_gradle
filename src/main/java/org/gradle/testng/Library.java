@@ -4,6 +4,9 @@
  *
  * @author User, @date 25.11.15 13:36
  */
+
+package org.gradle.testng;
+
 public class Library {
     public boolean someLibraryMethod() {
         return true;

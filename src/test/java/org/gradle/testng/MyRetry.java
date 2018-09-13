@@ -1,3 +1,5 @@
+package org.gradle.testng;
+
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 

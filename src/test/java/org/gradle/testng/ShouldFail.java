@@ -1,3 +1,5 @@
+package org.gradle.testng;
+
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.fail;
