@@ -33,6 +33,6 @@ dependencies {
 test {
     systemProperties System.getProperties()
     useTestNG ()
-    maxParallelForks = 4
+    maxParallelForks = 3
     forkEvery = 1
 }
