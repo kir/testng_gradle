@@ -32,7 +32,12 @@ dependencies {
 
 test {
     systemProperties System.getProperties()
-    useTestNG ()
+    useTestNG () {
+        suites 'src/test/resources/testng.xml'
+        suites 'src/test/resources/testng_second.xml'
+        suites 'src/test/resources/testng_third.xml'
+        suites 'src/test/resources/testng_fourth.xml'
+    }
     maxParallelForks = 3
     forkEvery = 1
 }

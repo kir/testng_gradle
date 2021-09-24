@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1">
+    <test name="test" >
+        <classes>
+            <class name="org.gradle.testng.MyRetry" />
+            <class name="org.gradle.testng.SecondTestClass" />
+            <class name="org.gradle.testng.ShouldFail" />
+            <class name="org.gradle.testng.TestClass" />
+        </classes>
+    </test>
+</suite>
