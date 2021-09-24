@@ -30,4 +30,9 @@ dependencies {
 
 }
 
-test.useTestNG()
+test {
+    systemProperties System.getProperties()
+    useTestNG ()
+    maxParallelForks = 4
+    forkEvery = 1
+}
