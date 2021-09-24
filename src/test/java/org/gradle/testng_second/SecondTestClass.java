@@ -1,4 +1,4 @@
-package org.gradle.testng_second.testng;
+package org.gradle.testng_second;
 
 import org.testng.annotations.Test;
 
@@ -8,7 +8,7 @@ import static org.testng.Assert.fail;
  * Created by Nikita.Skvortsov
  * date: 25.11.2015.
  */
-public class TestClass {
+public class SecondTestClass {
 
   @Test(retryAnalyzer = MyRetry.class)
   public void test1() {

@@ -1,4 +1,4 @@
-package org.gradle.testng_second.testng;
+package org.gradle.testng_fourth;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
