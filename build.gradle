@@ -38,6 +38,6 @@ test {
         suites 'src/test/resources/testng_third.xml'
         suites 'src/test/resources/testng_fourth.xml'
     }
-    maxParallelForks = 3
+    maxParallelForks = 6
     forkEvery = 1
 }
